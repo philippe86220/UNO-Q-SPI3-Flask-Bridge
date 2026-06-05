@@ -94,8 +94,8 @@ https://github.com/philippe86220/uno-q-spi3-app-lab-poc
 ## Credits
 
 This work was inspired by:
-- The custom Flask brick example shared by ptillisch
-- The SPI3 App Lab proof-of-concept published by Merlin513
+- The custom Flask brick example shared by @ptillisch
+- The SPI3 App Lab proof-of-concept published by @Merlin513
   
 The MCU firmware uses the SPIPeripheral library developed by  @facchinm.
 
