@@ -1,1 +1,14 @@
+services:
+  spi3:
+    image: uno-q-spi3-flask:latest
 
+    build:
+      context: .
+
+    user: root
+
+    devices:
+      - "/dev/spidev0.0:/dev/spidev0.0"
+
+    ports:
+      - "5000:5000"
