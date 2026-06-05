@@ -1,1 +1,7 @@
+name: spiFlask
+description: This project is a Proof of Concept (POC) demonstrating the use of the SPI3 link between the STM32U585 MCU and the Qualcomm QRB2210 MPU on the Arduino
+ports: []
+bricks:
+- spi3: {}
+icon: 🔌
 
