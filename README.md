@@ -14,16 +14,6 @@ This version uses Flask, which simplifies the implementation and makes it easier
 
 ---
 
-## Related Project
-
-This project focuses on the Flask-based implementation of the SPI3 App Lab bridge.
-
-For a detailed explanation of the SPI frame format, the MCU firmware and the data exchanged between the MCU and MPU, see:
-
-https://github.com/philippe86220/uno-q-spi3-app-lab-poc
-
----
-
 ## Architecture
 
 ```text
@@ -88,6 +78,16 @@ docker rmi uno-q-spi3-flask
 ```
 
 Then restart the App Lab application.
+
+---
+
+## Related Project
+
+This project focuses on the Flask-based implementation of the SPI3 App Lab bridge.
+
+For a detailed explanation of the SPI frame format, the MCU firmware and the data exchanged between the MCU and MPU, see:
+
+https://github.com/philippe86220/uno-q-spi3-app-lab-poc
 
 ---
 
