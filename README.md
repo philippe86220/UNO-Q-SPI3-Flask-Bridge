@@ -71,10 +71,26 @@ The image must also be removed so that App Lab rebuilds it from the updated sour
 
 ## Rebuild Procedure
 
+First identify the SPI3 container:
+
 ```bash
-docker stop spiflask-spi3-1
-docker rm spiflask-spi3-1
-docker rmi uno-q-spi3-flask
+docker ps -a
+```
+
+Then remove the SPI3 container and the custom image:
+
+```bash
+docker stop <spi3-container>
+docker rm <spi3-container>
+docker rmi uno-q-spi3-flask:latest
+```
+
+Example used during development:
+
+```bash
+docker stop uno-q-spi3-flask-bridge-main-spi3-1
+docker rm uno-q-spi3-flask-bridge-main-spi3-1
+docker rmi uno-q-spi3-flask:latest
 ```
 
 Then restart the App Lab application.
